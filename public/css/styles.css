@@ -1,0 +1,122 @@
+.nav-item{color: white;}
+body{font-family: 'Cormorant Garamond', serif;}
+.cursive{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    font-style: normal;
+}
+.container-fluid{
+  padding:2% 15%;}
+
+.nav-item{
+  padding-left: 2rem;
+  font-size: 1.25rem
+}
+.navbar{
+  padding-left:0;
+    padding-right:0;
+}
+
+.flowers-img{
+  width:80%;
+  padding-bottom: 10%;
+}
+@media(max-width:1208px){
+  body{
+    text-align: center;
+  }
+  .navbar{text-align: right;}
+}
+
+.brand-img{
+  width:100%;
+  margin-bottom: 5%;
+}
+.brand-img-div{
+  text-align: center;
+  margin-top:3%;
+  padding:3% 15%;}
+
+.carousel-item{
+  text-align: center;
+  font-size: 1.5rem;
+  padding:5%;
+  background-color:#ffb6b9 ;
+  color: white;
+}
+.carousel{background-color:#ffb6b9;
+margin-top: 5%}
+footer{
+  background-color: #ffb6b9;
+  text-align:center;
+  padding:1.5%;
+  margin:2%
+}
+.fitem{
+  padding:0.8%;
+    color: white;
+}
+.fitem:hover{
+  color:#52616b;
+}
+.product-img{
+  width:80%;
+  opacity: 0.4;
+}
+.product-img:hover{
+  opacity: 1.0;
+}
+.products-div{
+  margin-bottom: 3%;
+  text-align: center;
+}
+.product-txt{
+  position: absolute;
+  left:50%;
+  top:50%;
+   transform: translate(-50%, -50%);
+   color:black;
+  opacity: 1;
+}
+.pic{
+  width:80%;
+  margin-bottom: 5%
+}
+.news{
+  text-align: left;
+  margin:5%
+}
+ .news .pic{
+   width:70%
+ }
+.float-md-right{
+  text-align: right;
+  width:40%
+}
+.float-md-left{
+  width:40%
+}
+/* .left{
+  float: left;
+  width:200px
+}
+.right{
+  float:right;
+} */
+
+.links{text-align: center;
+padding:5%}
+
+.contact{color:black;
+font-size: 2rem;
+  padding:0.5%;
+text-align: center;
+margin-bottom: 5%;
+}
+.contact:hover{
+  color:#52616b;
+}
+.img{
+  width:80%;
+  margin-bottom: 5%;
+}
